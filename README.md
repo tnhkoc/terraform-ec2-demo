@@ -22,10 +22,29 @@ flowchart LR
 - **IaC:** Terraform
 - **Cloud:** AWS (EC2, VPC)
 
-## 🔧 Setup & Usage
-1. Initialize Terraform: `terraform init`
-2. Validate the plan: `terraform plan`
-3. Provision: `terraform apply`
+---
+
+## 🔧 Setup & Implementation
+
+### 1. Configure AWS CLI & IAM
+Ensure your local environment is authenticated.
+![AWS Configure](screenshots/07-aws-configure.png)
+![IAM User](screenshots/06-iam-user-creation.png)
+
+### 2. Terraform Code
+Define the infrastructure in `main.tf`.
+![Terraform Code](screenshots/01-main-tf.png)
+
+### 3. Initialize & Plan
+![Terraform Init](screenshots/02-terraform-init.png)
+![Terraform Plan](screenshots/03-terraform-plan.png)
+
+### 4. Apply Changes
+![Terraform Apply](screenshots/04-terraform-apply.png)
+
+## ✅ Verification
+Confirm the instance is running in the AWS Console.
+![AWS Console](screenshots/05-aws-console-ec2.png)
 
 ## 🧹 Cleanup
 ```bash
