@@ -18,6 +18,18 @@ flowchart LR
   end
 ```
 
+---
+
+## 📁 Project Structure
+```text
+.
+├── main.tf         # Terraform infrastructure definition
+├── screenshots/    # Visual confirmation steps
+└── README.md       # Project documentation
+```
+
+---
+
 ## 🛠️ Tech Stack
 - **IaC:** Terraform
 - **Cloud:** AWS (EC2, VPC)
